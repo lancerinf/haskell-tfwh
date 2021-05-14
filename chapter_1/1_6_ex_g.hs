@@ -26,4 +26,4 @@ capitalized :: String -> String
 capitalized [] = []
 capitalized (head:tail) = toUpper head : tail
 
-main = putStrLn (song 4)
+main = putStrLn (song 4)  
